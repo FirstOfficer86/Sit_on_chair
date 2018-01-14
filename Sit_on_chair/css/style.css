@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&subset=latin-ext');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1050px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Header */
+header{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40px;
+}
+ul{
+    list-style: none;
+}
+.logo{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 14px;
+    float: left;
+}
+.logo span{
+    color: #28cfb5;
+}
+.nav-bar{
+    text-decoration: none;
+    color: white;
+}
+li{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    float: right;
+    text-align: right;
+    margin: 0 45px;
+    padding-top: 14px;
+}
+/* sekcja pierwsza */
+.section-one{
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 34%, rgba(237,237,237,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(34%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 34%, rgba(237,237,237,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 34%, rgba(237,237,237,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 34%, rgba(237,237,237,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 34%, rgba(237,237,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+    height: 500px;
+}
+.arrows{
+    text-decoration: none;
+    color: #28cfb5;
+    font-size: 50px;
+}
+.arrow-prev{
+    padding-top: 240px;
+    float: left;
+}
+.arrow-next{
+    padding-top: 240px;
+    float: right;
+}
+.slider{
+    width:900px;
+    float: left;
+    padding-top: 120px;
+}
+.box-1{
+    width: 50%;
+    float: left;
+}
+.picture{
+    background-image: url("../images/black_chair.png");
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 400px;
+}
+.text-section-one h2{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.text-section-one span{
+    color:#28cfb5;
+}
+.text-section-one p{
+    font-size: 12px;
+    margin: 0 50px;
+    line-height: 18px;
+    text-align: center;
+}
+.section-one-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #28cfb5;
+    line-height: 50px;
+    width: 265px;
+    height: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+/* sekcja druga */
+.section-two{
+    height: 345px;
+    background-color: #FFFFFF;
+}
+.box-2{
+    width: 33.333%;
+    float: left;
+}
+.picture-one{
+    background-image: url("../images/box1_img.jpg");
+    width: 330px;
+    height: 225px;
+    margin-top: 5px;
+    margin-right: 25px;
+    padding-top: 150px;
+}
+.box-2-title{
+    background-color: rgba(255,255,255,.5);
+    line-height: 60px;
+    position: relative;
+    padding-left: 15px;
+    font-size: 16px;
+}
+.picture-one h3:after{
+    content: "";
+    width: 140px;
+    height: 7px;
+    background-color:#28cfb5;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+}
+.picture-two{
+    background-image: url("../images/box2_img.jpg");
+    width: 330px;
+    height: 225px;
+    margin-top: 5px;
+    padding-top: 150px;
+}
+.picture-two h3:after {
+    content: "";
+    width: 140px;
+    height: 7px;
+    background-color: #28cfb5;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+}
+.text-section-two{
+    width: 330px;
+    height: 250px;
+    border: 1px solid #dbdbdb;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.text-section-two h3:after {
+    content: "";
+    width: 140px;
+    height: 7px;
+    background-color: #28cfb5;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+}
+.text-section-two p{
+     font-size: 14px;
+     color: #8a8a8a;
+     margin: 0 20px;
+     padding-bottom: 20px;
+     text-align: left;
+ }
+/* sekcja trzecia */
+.section-three{
+    height: 725px;
+    background-color: #f1f1f1;
+}
+.section-three-title{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #5c5c5c;
+    width:100%;
+    height: 105px;
+    line-height: 105px;
+}
