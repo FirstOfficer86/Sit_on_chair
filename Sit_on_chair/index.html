@@ -19,8 +19,8 @@
         </div>
     </header>
     <!-- SEKCJA PIERWSZA -->
-    <section class="container section-one">
-        <div>
+    <section class="section-one">
+        <div class="container">
             <div class="arrow-prev">
                 <a class="arrows" href="#">&lt;</a>
             </div>
@@ -54,69 +54,139 @@
         </div>
     </section>
     <!-- SEKCJA TRZECIA -->
-    <section class="container section-three">
-        <div class="section-three-title">
-            <p>Cennik</p>
-        </div>
-        <div class="box-3">
-            <div class="head">
-                <span class="circle">
-                    <span class="circle-inside"></span>
-                </span>
+    <section class="section-three">
+        <div class="container">
+            <div class="section-three-title">
+                <p>Cennik</p>
             </div>
-            <div class="content">
-                <h3>Basic plan</h3>
-                <div class="price-circle">
-                    <p>85<sup>99</sup><br>pln/msc</p>
+            <article class="box-3">
+                <div class="option-box">
+                    <div class="head">
+                        <span class="circle">
+                            <span class="circle-inside"></span>
+                        </span>
+                     </div>
+                    <div class="content">
+                         <h3>Basic plan</h3>
+                        <div class="price-circle">
+                            <p class="price">85<sup>99</sup></p>
+                            <br>
+                            <p class="currency">pln/msc</p>
+                        </div>
+                        <div class="options">
+                             <p class="option-one-basic">Zakup towaru + dowóz</p>
+                             <p class="option-two-basic">Serwis</p>
+                             <a class="section-two-btn basic-btn" href="#">Dołącz</a>
+                        </div>
+                    </div>
                 </div>
-                <p class="options option-one">Zakup towaru + dowóz</p>
-                <p class="options option-two">Serwis</p>
-                <a class="secton-two-btn" href="#">Dołącz</a>
-            </div>
-        </div>
-        <div class="box-3">
-            <div class="head">
-                <span class="circle">
-                    <span class="circle-inside"></span>
-                </span>
-            </div>
-            <div class="content">
-                <h3>Standart plan</h3>
-                <div class="price-circle">
-                    <p>95<sup>99</sup><br>pln/msc</p>
+            </article>
+            <article class="box-3">
+                <div class="option-box standard-color">
+                    <div class="head">
+                        <span class="circle circle-color">
+                            <span class="circle-inside  circle-inside-color"></span>
+                        </span>
+                    </div>
+                    <div class="content">
+                        <h3 class="content-color">Standard plan</h3>
+                         <div class="price-circle price-color">
+                             <p class="price text-color">95<sup>99</sup></p>
+                            <br>
+                            <p class="currency text-color">pln/msc</p>
+                         </div>
+                        <div class="options">
+                            <p class="option-one-standard">Zakup towaru + dowóz</p>
+                            <p class="option-two-standard">Serwis</p>
+                            <p class="option-three-standard">Gwarancja 5 lat</p>
+                            <a class="section-two-btn standard-btn btn-color" href="#">Dołącz</a>
+                        </div>
+                    </div>
                 </div>
-                <p class="options option-one">Zakup towaru + dowóz</p>
-                <p class="options option-two">Serwis</p>
-                <p class="options option-three">Gwarancja 5 lat</p>
-                <a class="secton-two-btn" href="#">Dołącz</a>
-            </div>
-        </div>
-        <div class="box-3">
-            <div class="head">
-                <span class="circle">
-                    <span class="circle-inside"></span>
-                </span>
-            </div>
-            <div class="content">
-                <h3>Advance plan</h3>
-                <div class="price-circle">
-                    <p>211<sup>00</sup><br>pln/msc</p>
+            </article>
+            <article class="box-3">
+                <div class="option-box">
+                    <div class="head">
+                        <span class="circle">
+                            <span class="circle-inside"></span>
+                        </span>
+                    </div>
+                    <div class="content">
+                        <h3>Advance plan</h3>
+                        <div class="price-circle">
+                            <p class="price">211<sup>00</sup></p>
+                            <br>
+                            <p class="currency">pln/msc</p>
+                        </div>
+                        <div class="options">
+                            <p class="option-one-advance">Zakup towaru + dowóz</p>
+                            <p class="option-two-advance">Serwis</p>
+                            <p class="option-three-advance">Gwarancja 6 lat</p>
+                            <p class="option-four-advance">Porady projektanta</p>
+                            <a class="section-two-btn advance-btn" href="#">Dołącz</a>
+                        </div>
+                    </div>
                 </div>
-                <p class="options option-one">Zakup towaru + dowóz</p>
-                <p class="options option-two">Serwis</p>
-                <p class="options option-three">Gwarancja 6 lat</p>
-                <p class="options option-four">Porady projektanta</p>
-                <a class="secton-two-btn" href="#">Dołącz</a>
-            </div>
+            </article>
         </div>
     </section>
 
-    <section class="container">
-
+    <section class="section-four">
+        <div class="container">
+            <div class="section-four-title">
+                <p>Kontakt</p>
+            </div>
+            <form>
+                <div class="left-form-side">
+                    <div class="from-group">
+                        <label for="name">
+                            <input id="name" type="text" placeholder="Imię"/>
+                        </label>
+                    </div>
+                    <div class="from-group">
+                        <label for="email">
+                            <input id="email" type="email" placeholder="email"/>
+                        </label>
+                    </div>
+                    <div class="from-group">
+                        <label for="about">
+                            <textarea id="about" placeholder="Wiadomość"></textarea>
+                        </label>
+                    </div>
+                </div>
+                <div class="right-form-side">
+                    <div class="from-group">
+                        <span class="image"></span>
+                    </div>
+                    <div class="from-group">
+                        <label class="checkbox">
+                            Zgadzam się na przetwarzanie danych osobowych<input type="checkbox"/>
+                            <span></span>
+                        </label>
+                    </div>
+                    <div class="from-group">
+                        <input type="submit" value="Wyślij"/>
+                    </div>
+                </div>
+            </form>
+        </div>
     </section>
 
-    <footer class="container">
-
+    <footer class="footer">
+        <div class="container">
+            <div class="copyright">
+                <p>Copyright 2014 | All rights reserved.-Sit on Chair</p>
+            </div>
+            <div>
+                <a href="#"><img src="images/flickr.png" alt="flickr logo"> </a>
+                <a href="#"><img src="images/vimeo.png" alt="vimeo logo".</a>
+                <a href="#"><img src="images/pinterest.png" alt="pinterest logo"></a>
+                <a href="#"><img src="images/twitter.png" alt="twitter logo"></a>
+            </div>
+            <div>
+                <p class="logo"><a class="footer-logo" href="#">Sit <span>on</span> chair</a></p>
+            </div>
+        </div>
     </footer>
 
 </body>
